@@ -1,5 +1,8 @@
-import static_ffmpeg
-static_ffmpeg.add_paths()
+try:
+    import static_ffmpeg
+    static_ffmpeg.add_paths()
+except Exception:
+    pass
 
 import streamlit as st
 import os
