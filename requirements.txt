@@ -1,8 +1,10 @@
 streamlit
+static-ffmpeg
 moviepy==1.0.3
 opencv-python-headless
 numpy
+Pillow
 openai-whisper
-pillow
-torch
 openai
+google-generativeai
+torch
